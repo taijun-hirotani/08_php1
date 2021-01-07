@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+
+    src:
+    local("Noto Sans CJK JP")
+    url(//.font.gstatic.com/ea/notsansjp/v5/NotoSansJP-Reegular.woff2)format('woff2'),
+    url(//.font.gstatic.com/ea/notsansjp/v5/NotoSansJP-Reegular.woff)format('woff'),
+    url(//.font.gstatic.com/ea/notsansjp/v5/NotoSansJP-Reegular.otf)format('opentype');
+}
+
+html{
+    font-size:62.5%; /*16px×62.5％＝10px*/
+}
+
+body{
+    font-size: 2.0rem;
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+/*********************
+header
+*********************/
+.header{
+    background-color: rgb(25, 25, 25);
+    padding: 20px 10px;
+}
+
+.title{
+    width: 500px;
+    font-size: 3.0rem;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.geocode{
+    width: 1000px;
+    text-align: center;
+    margin: 10px auto 0;
+    font-size: 2.0rem;
+    color: #fff;
+}
+
+/*********************
+地図
+*********************/
+.maparea{
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+}
+.myMap {
+border: 1px outset gray;
+width: 90%;
+height: 500px;
+margin: 0 auto;
+}
+
+/*********************
+表
+*********************/
+.data{
+    background-color:rgb(25,25,25);
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.room{
+    width: 1400px;
+    color: #fff;
+    text-align: center;
+}
+.room_item{
+    color: #fff;
+    padding: 30px 20px 0;
+}
